@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "567301248875",
+    "firebase_url": "https://fir-project-3012b-default-rtdb.firebaseio.com",
+    "project_id": "fir-project-3012b",
+    "storage_bucket": "fir-project-3012b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:567301248875:android:c36f640f2939fc4c2e9e2e",
+        "android_client_info": {
+          "package_name": "com.firebase.monapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiXzPIgABEo8X8qY9S7xyBsKXLpKHQ0hc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

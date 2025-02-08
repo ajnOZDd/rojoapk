@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "my-firebase-app",
+    "slug": "my-firebase-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "notification": {
+      "icon": "./assets/favicon.png",
+      "color": "#FF231F7C",
+      "androidMode": "default",
+      "androidCollapsedTitle": "New notifications"
+    },
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.firebase.monapplication",
+      "googleServicesFile": "./google-services.json",
+      "permissions": [
+        "NOTIFICATIONS"
+      ]
+    },
+    "plugins": [
+      "@react-native-firebase/app",
+      ["expo-build-properties", {
+        "android": {
+          "minSdkVersion": 21
+        }
+      }]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "1e3d308a-7f8f-4b10-a9ef-8ae3888573c1"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/1e3d308a-7f8f-4b10-a9ef-8ae3888573c1"
+    }
+  }
+}

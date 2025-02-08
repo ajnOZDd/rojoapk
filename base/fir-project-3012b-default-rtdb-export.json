@@ -1,0 +1,385 @@
+{
+  "cryptocurrencies": {
+    "bitcoin": {
+      "currentPrice": 45000,
+      "historicalPrices": [
+        {
+          "date": "2025-01-01",
+          "price": 40000
+        },
+        {
+          "date": "2025-01-15",
+          "price": 42000
+        }
+      ],
+      "marketCap": 850000000000,
+      "name": "Bitcoin",
+      "symbol": "BTC"
+    },
+    "ethereum": {
+      "currentPrice": 3000,
+      "historicalPrices": [
+        {
+          "date": "2025-01-01",
+          "price": 2500
+        },
+        {
+          "date": "2025-01-15",
+          "price": 2700
+        }
+      ],
+      "marketCap": 350000000000,
+      "name": "Ethereum",
+      "symbol": "ETH"
+    },
+    "litecoin": {
+      "currentPrice": 150,
+      "historicalPrices": [
+        {
+          "date": "2025-01-01",
+          "price": 120
+        },
+        {
+          "date": "2025-01-15",
+          "price": 130
+        }
+      ],
+      "marketCap": 10000000000,
+      "name": "Litecoin",
+      "symbol": "LTC"
+    }
+  },
+  "notifications": {
+    "notif123": {
+      "createdAt": "2025-01-29T08:00:00Z",
+      "message": "[Bitcoin] Le prix a augmenté de +5% aujourd'hui !",
+      "readStatus": false,
+      "userId": "user123"
+    }
+  },
+  "portfolio": {
+    "AONpTUu5iHcvc8s4F0KScSloz7I3": [
+      {
+        "amount": 0.3,
+        "cryptoId": "wrapped-bitcoin",
+        "date": "2025-02-03T08:32:07.316Z",
+        "totalValue": 28696.5,
+        "type": "vente"
+      },
+      {
+        "amount": 1,
+        "cryptoId": "wrapped-bitcoin",
+        "date": "2025-02-03T08:32:00.000Z",
+        "totalValue": 95655,
+        "type": "achat"
+      },
+      {
+        "amount": 2,
+        "cryptoId": "wrapped-bitcoin",
+        "date": "2025-02-03T08:34:16.882Z",
+        "totalValue": 191310,
+        "type": "achat"
+      },
+      {
+        "amount": 3,
+        "cryptoId": "uniswap",
+        "date": "2025-02-03T08:34:51.401Z",
+        "totalValue": 27.72,
+        "type": "achat"
+      },
+      {
+        "amount": 5,
+        "cryptoId": "uniswap",
+        "date": "2025-02-03T08:35:28.922Z",
+        "totalValue": 46.2,
+        "type": "vente"
+      },
+      {
+        "amount": 2,
+        "cryptoId": "dogecoin",
+        "date": "2025-02-03T08:38:22.773Z",
+        "totalValue": 0.493966,
+        "type": "vente"
+      },
+      {
+        "amount": 2,
+        "cryptoId": "dogecoin",
+        "date": "2025-02-03T08:55:40.134Z",
+        "totalValue": 0.493966,
+        "type": "vente"
+      },
+      {
+        "amount": 5,
+        "cryptoId": "dogecoin",
+        "date": "2025-02-03T08:55:48.593Z",
+        "totalValue": 1.234915,
+        "type": "vente"
+      },
+      {
+        "amount": 8,
+        "cryptoId": "tether",
+        "date": "2025-02-03T08:56:05.015Z",
+        "totalValue": 8.008,
+        "type": "achat"
+      },
+      {
+        "amount": 8,
+        "cryptoId": "tether",
+        "date": "2025-02-03T08:56:33.854Z",
+        "totalValue": 8.008,
+        "type": "achat"
+      },
+      {
+        "amount": 9,
+        "cryptoId": "tether",
+        "date": "2025-02-03T08:56:41.076Z",
+        "totalValue": 9.008999999999999,
+        "type": "achat"
+      },
+      {
+        "amount": 8,
+        "cryptoId": "tether",
+        "date": "2025-02-03T08:56:48.623Z",
+        "totalValue": 8.008,
+        "type": "achat"
+      },
+      {
+        "amount": 1,
+        "cryptoId": "bitcoin",
+        "date": "2025-02-03T08:57:36.809Z",
+        "totalValue": 95779,
+        "type": "achat"
+      },
+      {
+        "amount": 2,
+        "cryptoId": "bitcoin",
+        "date": "2025-02-03T09:10:11.156Z",
+        "totalValue": 191558,
+        "type": "vente"
+      },
+      {
+        "amount": 2,
+        "cryptoId": "binancecoin",
+        "date": "2025-02-03T09:10:43.475Z",
+        "totalValue": 1153.64,
+        "type": "achat"
+      },
+      {
+        "amount": 2,
+        "cryptoId": "binance-staked-sol",
+        "date": "2025-02-03T09:11:33.217Z",
+        "totalValue": 404.1,
+        "type": "achat"
+      },
+      {
+        "amount": 5,
+        "cryptoId": "binance-peg-weth",
+        "date": "2025-02-03T09:15:18.876Z",
+        "totalValue": 13031.65,
+        "type": "achat"
+      },
+      {
+        "amount": 2,
+        "cryptoId": "ethereum",
+        "date": "2025-02-03T10:52:31.349Z",
+        "totalValue": 5201.84,
+        "type": "achat"
+      }
+    ],
+    "CXIHsGgXgtYIJ3gyWgETQ2opcFy1": [
+      {
+        "amount": 0.5,
+        "cryptoId": "wrapped-eeth",
+        "date": "2025-02-03T09:17:42.005Z",
+        "totalValue": 1371.96,
+        "type": "achat"
+      },
+      {
+        "amount": 2,
+        "cryptoId": "bitget-token",
+        "date": "2025-02-03T09:21:12.677Z",
+        "totalValue": 12.42,
+        "type": "achat"
+      },
+      {
+        "amount": 3,
+        "cryptoId": "wrapped-bitcoin",
+        "date": "2025-02-03T09:30:00.000Z",
+        "totalValue": 286839,
+        "type": "vente"
+      },
+      {
+        "amount": 2,
+        "cryptoId": "wrapped-bitcoin",
+        "date": "2025-02-03T09:32:08.415Z",
+        "totalValue": 191226,
+        "type": "achat"
+      },
+      {
+        "amount": 10,
+        "cryptoId": "tron",
+        "date": "2025-02-03T09:34:26.016Z",
+        "totalValue": 2.2134400000000003,
+        "type": "achat"
+      },
+      {
+        "amount": 1,
+        "cryptoId": "wrapped-bitcoin",
+        "date": "2025-02-03T09:38:10.025Z",
+        "totalValue": 95613,
+        "type": "achat"
+      }
+    ]
+  },
+  "users": {
+    "AONpTUu5iHcvc8s4F0KScSloz7I3": {
+      "createdAt": "2025-01-31T16:31:25.837Z",
+      "email": "tomboveloagnontsoa@gmail.com",
+      "favorites": {
+        "bitcoin": {
+          "addedAt": "2025-02-03T10:51:43.954Z",
+          "name": "Bitcoin",
+          "symbol": "btc"
+        },
+        "ethereum": {
+          "addedAt": "2025-02-02T07:47:14.337Z",
+          "name": "Ethereum",
+          "symbol": "ETH"
+        },
+        "litecoin": {
+          "addedAt": "2025-02-02T07:47:16.322Z",
+          "name": "Litecoin",
+          "symbol": "LTC"
+        },
+        "ripple": {
+          "addedAt": "2025-02-02T16:42:00.905Z",
+          "name": "XRP",
+          "symbol": "xrp"
+        },
+        "staked-ether": {
+          "addedAt": "2025-02-02T16:39:21.433Z",
+          "name": "Lido Staked Ether",
+          "symbol": "steth"
+        },
+        "tether": {
+          "addedAt": "2025-02-02T08:25:09.493Z",
+          "name": "Tether",
+          "symbol": "usdt"
+        },
+        "usd-coin": {
+          "addedAt": "2025-02-02T08:23:50.797Z",
+          "name": "USDC",
+          "symbol": "usdc"
+        },
+        "wrapped-steth": {
+          "addedAt": "2025-02-02T20:28:23.008Z",
+          "name": "Wrapped stETH",
+          "symbol": "wsteth"
+        }
+      },
+      "name": "Tombovelo Agnontsoa",
+      "photoURL": "https://res.cloudinary.com/dyq9j8ltv/image/upload/v1738579854/uajw2xq5no6fcpbmltqw.jpg"
+    },
+    "CXIHsGgXgtYIJ3gyWgETQ2opcFy1": {
+      "createdAt": "2025-02-02T17:00:01.416Z",
+      "email": "Julicelrobferry@gmail.com",
+      "favorites": {
+        "bitcoin": {
+          "addedAt": "2025-02-02T17:02:58.760Z",
+          "name": "Bitcoin",
+          "symbol": "btc"
+        }
+      },
+      "name": "Julicel Robferry",
+      "photoURL": "https://res.cloudinary.com/dyq9j8ltv/image/upload/v1738515703/cq2oirskmv77huqm7hc7.jpg"
+    }
+  },
+  "wallets": {
+    "AONpTUu5iHcvc8s4F0KScSloz7I3": {
+      "balance": 205479.36872700005,
+      "deposits": [
+        {
+          "amount": 0,
+          "date": "2025-02-02T16:40:26.035Z"
+        },
+        {
+          "amount": 5000,
+          "date": "2025-02-02T16:40:25.626Z"
+        },
+        {
+          "amount": 2000,
+          "date": "2025-02-03T16:40:00.000Z"
+        },
+        {
+          "amount": 5000,
+          "date": "2025-02-04T16:40:00.000Z"
+        },
+        {
+          "amount": 2000,
+          "date": "2025-02-03T08:36:42.901Z"
+        },
+        {
+          "amount": 25000,
+          "date": "2025-02-03T10:51:59.173Z"
+        },
+        {
+          "amount": 30000,
+          "date": "2025-02-03T10:51:59.173Z"
+        }
+      ],
+      "withdrawals": [
+        {
+          "amount": 0,
+          "date": "2025-02-02T16:40:26.036Z"
+        },
+        {
+          "amount": "1000",
+          "date": "2025-02-02T17:39:07.546Z"
+        },
+        {
+          "amount": "1000",
+          "date": "2025-02-02T17:39:07.546Z"
+        },
+        {
+          "amount": "1000",
+          "date": "2025-02-03T17:39:00.000Z"
+        },
+        {
+          "amount": "115000",
+          "date": "2025-02-03T10:52:21.715Z"
+        }
+      ]
+    },
+    "CXIHsGgXgtYIJ3gyWgETQ2opcFy1": {
+      "balance": 14997.786559999993,
+      "deposits": [
+        {
+          "amount": 0,
+          "date": "2025-02-02T17:02:29.057Z"
+        },
+        {
+          "amount": 14500,
+          "date": "2025-02-14T17:02:00.000Z"
+        },
+        {
+          "amount": 2000,
+          "date": "2025-02-03T09:23:53.636Z"
+        }
+      ],
+      "withdrawals": [
+        {
+          "amount": 0,
+          "date": "2025-02-02T17:02:29.057Z"
+        },
+        {
+          "amount": "115",
+          "date": "2025-02-03T09:23:06.365Z"
+        },
+        {
+          "amount": "0.62",
+          "date": "2025-02-03T09:23:42.717Z"
+        }
+      ]
+    }
+  }
+}

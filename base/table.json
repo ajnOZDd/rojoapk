@@ -1,0 +1,77 @@
+{
+  "users": {
+    "user123": {
+      "name": "Jean Dupont",
+      "email": "jean.dupont@example.com",
+      "photoURL": "https://example.com/photo.jpg",
+      "favorites": ["bitcoin", "ethereum"],
+      "createdAt": "2025-01-28T20:00:00Z"
+    },
+    "user456": {
+      "name": "Marie Curie",
+      "email": "marie.curie@example.com",
+      "photoURL": "https://example.com/photo2.jpg",
+      "favorites": ["litecoin"],
+      "createdAt": "2025-01-29T08:00:00Z"
+    }
+  },
+  "cryptocurrencies": {
+    "bitcoin": {
+      "name": "Bitcoin",
+      "symbol": "BTC",
+      "currentPrice": 45000,
+      "marketCap": 850000000000,
+      "historicalPrices": [
+        { "date": "2025-01-01", "price": 40000 },
+        { "date": "2025-01-15", "price": 42000 }
+      ]
+    },
+    "ethereum": {
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "currentPrice": 3000,
+      "marketCap": 350000000000,
+      "historicalPrices": [
+        { "date": "2025-01-01", "price": 2500 },
+        { "date": "2025-01-15", "price": 2700 }
+      ]
+    },
+    "litecoin": {
+      "name": "Litecoin",
+      "symbol": "LTC",
+      "currentPrice": 150,
+      "marketCap": 10000000000,
+      "historicalPrices": [
+        { "date": "2025-01-01", "price": 120 },
+        { "date": "2025-01-15", "price": 130 }
+      ]
+    }
+  },
+  "transactions": {
+    "tx123": {
+      "userId": "user123",
+      "cryptoId": "bitcoin",
+      "type": "achat",
+      "amount": 0.5,
+      "totalValue": 22500,
+      "date": "2025-01-28T20:00:00Z"
+    },
+    "tx456": {
+      "userId": "user456",
+      "cryptoId": "ethereum",
+      "type": "vente",
+      "amount": 1,
+      "totalValue": 3000,
+      "date": "2025-01-29T08:00:00Z"
+    }
+  },
+  "notifications": {
+    "notif123": {
+      "userId": "user123",
+      "message": "[Bitcoin] Le prix a augmenté de +5% aujourd'hui !",
+      "cryptoId": null,
+      "readStatus": false,
+      "createdAt": "2025-01-29T08:00:00Z"
+    }
+  }
+}
